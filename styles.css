@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+.tmava{
+    background-color: #353044;
+}
+ 
+.hlavni{
+    font-family: "Dancing script";
+    color:#ffffff;
+    text-align: center;
+    font-size: 3rem;
+    margin:0;
+    padding-top:10px;
+}
+ 
+h2{
+    font-family: "Montserrat";
+    color:#ffffff;
+    text-align: center;
+    font-weight: 400;
+   
+}
+ .text{
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+ }
+ 
+ .jedna{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+   
+ }
+ 
+ a{
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: black;
+    text-align: center;
+    font-weight: 650;
+     
+ }
+ .vsechny{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    gap:10px;
+    align-items: center;
+   
+ }
+ 
+ .bila{
+   background-color:#ffffff;
+ }
+ 
+ .textik{
+   font-family: "Montserrat";
+   text-align: center;
+   font-weight: 650;
+   font-size: 16px;
+ }
+ 
+ .dalsitext{
+   font-family:"Montserrat";
+ 
+ }
+ 
+ .dvatexty{
+   padding:15px;
+ }
+ 
+ .bilejnadpis{
+   color:#ffffff;
+   font-family: "Montserrat";
+   text-align: center;
+   font-weight: 650;
+   font-size: 16px;
+   padding-top: 20px;
+ 
+ }
+ 
+ ul{
+   color:#ffffff;
+   font-family:"Montserrat";
+ 
+ }
+ 
+ ol{
+   color:#ffffff;
+   font-family:"Montserrat";
+   
+ }
+ 
+ .bilejtext{
+   color: #ffffff;
+   font-family:"Montserrat";
+ }
+ 
+ .wrap{
+   padding-left:20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   background-color: #353044;
+ }
+ 
+ .obrazek{
+   width: 544px;
+   height: 400px;
+ }
+ 
+ .wrapdva{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 15px;
+ }
+ 
+ 
+ 
+ /*MEDIA QUERY PRO TABLETY*/
+ 
+ @media (min-width: 768px){
+  .jedna{
+    width: auto;
+    padding: 0 5px;
+  }
+ 
+  .vsechny{
+    flex-direction: row;
+    gap: 8px;
+ 
+ 
+  }
+ 
+  .dvatexty{
+    padding: 45px;
+  }
+ 
+  .dvaodstavce{
+    flex-direction: row;
+    display:flex;
+  }
+ 
+   .events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content:center;
+   
+  }
+ 
+  .events article {
+    flex: 1 1 45%;
+ 
+  }
+ 
+  .events ul,
+  .events ol{
+    margin:10px 0;
+  }
+ 
+  .seznam{
+    padding-left:50px;
+ 
+ 
+  }
+ 
+  .wrap{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+ 
+  .wrapdva{
+    flex-direction: row;
+    gap:50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top:50px;
+    padding-bottom:50px;
+    justify-content:center
+  }
+ 
+  .obrazek{
+    border-radius: 5px;
+    width:200px;
+    height:150px;
+   
+  }
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ @media (min-width:1280px){
+ 
+  .hlavni{
+    text-align:left;
+    padding-left:100px;
+  }
+ 
+  h2{
+    text-align:left;
+    padding-left:100px;
+  }
+ 
+  .text{
+    text-align:left;
+    padding-left:100px;
+  }
+ 
+  .prvniobrazek{
+    width: 1500px;
+    height:auto;
+  }
+ 
+  .divprvnihoobrazku{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-top:20px;
+ 
+  }
+ 
+  a{
+    color:#ffffff;
+  }
+ 
+  .jedna{
+    background-color:#353044;
+  }
+ 
+  .vsechny{
+    position: absolute;
+    right: 100px ;
+    margin-left:auto;
+    margin-top: -50px;
+    gap: 20px;
+   
+  }
+ 
+  .jentydvaseznamy{
+    position:absolute;
+    left:200px;
+  }
+ 
+  .obrazek{
+    width:480px;
+    height:235px;
+   
+  }
+ 
+ 
+ 
+ }
+ 
